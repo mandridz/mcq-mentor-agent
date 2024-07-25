@@ -20,8 +20,6 @@ class CustomOpenAIModel(OpenAIModel):
         #                                                                              http_client=httpx.Client(
         #                                                                                  proxy=proxy))
 
-        print("key", key)
-        print("proxy", proxy)
         self.client = OpenAI(api_key=key, http_client=httpx.Client(proxy=proxy))
 
 
