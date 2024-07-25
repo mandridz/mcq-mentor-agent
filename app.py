@@ -25,7 +25,6 @@ class CustomOpenAIModel(OpenAIModel):
         self.client = OpenAI(api_key=key, http_client=httpx.Client(proxy=proxy))
 
 
-st.set_option('browser.serverAddress', 'localhost')
 st.set_page_config(
     page_title="AI Mentor",
     layout="centered",  # or "wide"
