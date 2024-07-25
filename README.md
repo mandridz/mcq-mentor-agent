@@ -13,9 +13,9 @@ pip install -r requirements.txt
 ```
 
 ```bash
-streamlit run app.py
+streamlit run app.py --browser.serverAddress localhost
 ```
 
 ```bash
-nohup streamlit run app.py &
+nohup streamlit run app.py --browser.serverAddress localhost &
 ```
